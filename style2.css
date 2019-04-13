@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Euphoria Script', cursive;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #eee;
+}
+
+header h1 {
+  padding-left: 25px;
+}
+
+header a {
+  color: #eee;
+  text-decoration: none;
+}
+
+header a:hover {
+  opacity: 0.9;
+}
+
+header img {
+  width: 25px;
+  height: 25px;
+  padding-right: 25px;
+}
+
+.dropdown-button {
+  color: white;
+  padding: 16px;
+  border: white 3px solid;
+}
+
+nav {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eee;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; border: black 2px solid; font-size: 20px;}
+
+nav:hover .dropdown-content {display: block;}
+
+nav:hover .dropdown-button {background-color: #eee; color: black;}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+div:nth-child(2) {
+  background: url('images2/food.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(3) {
+  background: url('images2/salad.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(4) {
+  background: url('images2/pasta.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(5) {
+  background: url('images2/coffee.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(6) {
+  background: url('images2/shake.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(7) {
+  background: url('images2/pancake.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: #eee;
+  padding: 25px;
+  border: black 3px solid;
+  line-height: 200%;
+}
+
+.content ul {
+  list-style: none;
+  font-size: 24px;
+}
+footer {
+  color: #eee;
+  background-color: black;
+  text-align: center; padding: 25px;
+}
